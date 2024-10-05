@@ -10,8 +10,8 @@ fun countUniqueCharacters(input: String): Map<Char, Int> {
 }
 
 fun main() {
-    println("Введите строку:")
-    val inputString = readLine() ?: ""
+
+    val inputString = "ASSAABBSSAA"
 
 
     val characterCount = countUniqueCharacters(inputString)
